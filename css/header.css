@@ -1,0 +1,91 @@
+/* Header */
+
+*
+{
+    margin: 0;      /* Reset margins */
+    padding: 0;     /* Reset padding */
+    border: 0;      /* Reset border */
+}
+html, body
+{
+    height: 100%;
+    margin: 0;
+}
+body
+{
+    font-family: Arial; /* Set default font type */
+    background-color: rgb(39, 1, 51); /* Set page background colour */
+    color: white; /* Set page text colour */
+}
+
+/* Navigation (in Header) */
+
+.nav
+{
+    background-color: rgb(13, 0, 70);
+    overflow: hidden;
+    display: flex;
+    justify-content: right;
+}
+.nav a
+{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 650;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.nav a:hover
+{
+    background-color: rgb(0, 89, 255);
+    color: black;
+}
+
+.nav a.access
+{
+    color: gold;
+    font-size: 25px;
+}
+.nav a.access:hover
+{
+    color: black;
+}
+
+/* Footer */
+
+.f-nav
+{
+    background-color: rgb(36, 36, 36);
+    overflow: hidden;
+    display: flex;
+    justify-content: left;
+}
+.f-nav #ul1
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.f-nav #ul2
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.f-nav a
+{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}

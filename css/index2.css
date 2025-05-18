@@ -1,0 +1,50 @@
+.container
+{
+    padding: 2%;
+    display: flex;
+    justify-content: space-inbetween;
+}
+/* Left side flexbox (text) */
+.div1
+{
+    padding: 20px;
+    border-color: white;
+    border-width: 2px;
+    border-style: none;
+    min-width: 50%;
+    max-width: 60%;
+}
+.div1 h1
+{
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgb(33, 163, 0);
+    font-size: 60px;
+    text-shadow: 5px 5px rgb(13, 63, 0);
+    padding-bottom: 30px;
+}
+.div1 p
+{
+    font-size: 20px;
+    text-align: justify;
+}
+/* Right side flexbox (image) */
+.div2
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 0px;
+    
+    border-color: white;
+    border-width: 2px;
+    border-style: none;
+    min-width: 40%;
+    max-width: 40%;
+}
+.div2 img
+{
+    width: 500px;
+    height: 500px;
+}
