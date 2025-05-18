@@ -1,0 +1,108 @@
+/* General */
+html {scroll-behavior: smooth;}
+h1 {font-size: 40px;}
+h2 {font-size: 30px;}
+h3, p {font-size: 20px;}
+body 
+{
+    font-family: Arial; 
+    background-color: #1a0025; 
+    color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header navigation */
+header {font-size: 17px;}
+header nav 
+{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #52004b79;
+    padding: 1.5rem;
+}
+header nav ul 
+{
+    list-style-type: none;
+    text-align: right;
+}
+header nav ul li 
+{
+    display: inline-block;
+    margin-inline: 1.0vw;
+}
+header nav ul li a 
+{
+    background-color: #00232c;
+    border: 2px solid #ffffff;
+    
+    text-decoration: none;
+    color: #00aeff;
+
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+header nav ul li a:hover,
+header nav ul li a:focus
+{
+    background-color: #8f006b;
+    color: #70d2ff;
+    transition: background-color 0.3s, color 0.3s ease;
+}
+header nav ul li a:active {color: #ffffff;}
+
+/* Main */
+main {flex: 1;}
+main h1 {padding: 6rem 2rem 2rem 2rem;}
+main section
+{
+    padding: 2rem;
+    line-height: 1.5;
+}
+
+/* Footer */
+footer 
+{
+    background-color: #222222;
+    padding: 1.2rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer .copyright {text-align: center; padding-top: 1.5rem;}
+footer .footer-container
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+/* Footer navigation */
+footer .footer-container #div1 {font-size: 20px;}
+footer .footer-container #div1 nav ul {list-style-type: none;}
+footer .footer-container #div1 nav ul li {display: inline-block; margin-inline: 1.2vw;}
+footer .footer-container #div1 nav ul li a {text-decoration: none; color: #0ead00;}
+footer .footer-container #div1 nav ul li a:hover,
+footer .footer-container #div1 nav ul li a:focus {color: #00725f;}
+footer .footer-container #div1 nav ul li a:active {color: #ffffff;}
+/* Footer social media icons */
+footer .footer-container #div2 {font-size: 30px;}
+footer .footer-container #div2 ul {list-style-type: none;}
+footer .footer-container #div2 ul li {display: inline-block; margin-inline: 1.2vw;}
+footer .footer-container #div2 ul li #linkedin {color: #0077B5;}
+footer .footer-container #div2 ul li #linkedin:hover,
+footer .footer-container #div2 ul li #linkedin:focus {color: #00a6ff;}
+footer .footer-container #div2 ul li #linkedin:active {color: #ffffff;}
+footer .footer-container #div2 ul li #github {color: #7c7c7c;}
+footer .footer-container #div2 ul li #github:hover,
+footer .footer-container #div2 ul li #github:focus {color: #c2c2c2;}
+footer .footer-container #div2 ul li #github:active {color: #ffffff;}
+footer .footer-container #div2 ul li #codepen {color: #adadad;}
+footer .footer-container #div2 ul li #codepen:hover,
+footer .footer-container #div2 ul li #codepen:focus {color: #cecece;}
+footer .footer-container #div2 ul li #codepen:active {color: #ffffff;}

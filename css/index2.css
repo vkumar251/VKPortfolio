@@ -2,7 +2,7 @@
 {
     padding: 2%;
     display: flex;
-    justify-content: space-inbetween;
+    justify-content: space-between;
 }
 /* Left side flexbox (text) */
 .div1

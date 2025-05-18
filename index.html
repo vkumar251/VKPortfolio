@@ -4,22 +4,130 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible", content="IE-edge">
-        <title>Name | VK Portfolio</title>
-        <link rel="stylesheet", href="css/fonts.css">
+        <title>Index | VK Portfolio</title>
         <link rel="stylesheet", href="css/reset.css">
+        <link rel="stylesheet", href="css/navigation.css">
+        <link rel="stylesheet", href="css/body.css">
+        <link rel="stylesheet", href="css/fonts.css">
+        <link rel="stylesheet", href="queries/media_queries.css">
+        <link rel="stylesheet", href="queries/index_queries.css">
         <link rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <style>
+            main section #horizontal-line 
+            {
+                margin: auto;
+                border-bottom: 2px solid white; 
+                width: 70%; 
+                text-align: center;
+            }
+            main section #horizontal-line h1 
+            {
+                font-size: 50px;
+                font-weight: 800;
+                color: #0099ff; 
+                text-shadow: 10px 10px 20px #008cff;
+                text-align: center;
+            }
+            .main-menu
+            {
+                margin: 3rem auto;
+                width: 60%;
+                border: 5px solid #fbff00;
+                border-radius: 30px;
+                list-style-type: none;
+                text-align: center;
+                margin-bottom: 5rem;
+            }
+            .main-menu li
+            {
+                border-top: 5px solid #fbff00;
+                font-size: 30px;
+            }
+            .main-menu li h2
+            {
+                color: #00ffb3;
+                font-size: 40px;
+                text-shadow: 10px 10px 5px #008141;
+            }
+            .main-menu li a
+            {
+                color: #ff00aa;
+                background-color: #1a3b1d;
+                padding: 1.2rem;
+                display: block;
+                text-decoration: none;
+            }
+            .main-menu li a:hover,
+            .main-menu li a:focus
+            {
+                background-color: green;
+                color: #ff65cc;
+                transition: background-color 0.5s, color 0.3s ease;
+            }
+            .main-menu li a:active {color: white;}
+            .main-menu li:first-child 
+            {
+                background-color: #003542;
+                border-top: none;
+                border-radius: 28px 28px 0 0;
+                padding: 2rem;
+            }
+            .main-menu li:last-child a
+            {
+                border-radius: 0 0 28px 28px;
+            }
+        </style>
     </head>
     <body>
         <header>
-            <h1>Heading 1</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Experience</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <a href="#"><i class="fa-solid fa-bars menu-button", id="menu"></i></a>
+                </ul>
+            </nav>
         </header>
         <main>
             <section>
-                <h2>Heading 2</h2>
-                <p>Text</p>
+                <div id="horizontal-line"><h1>Index Page</h1></div>
+                <ul class="main-menu">
+                    <li><h2>Main Menu</h2></li>
+                    <li><a href="#">Homepage</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Experience & Employment</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
             </section>
         </main>
         <footer>
+            <section class="footer-container">
+                <div id="div1">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Experience</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="div2">
+                    <ul>
+                        <li><a href="#", id="linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="#", id="github"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="#", id="codepen"><i class="fa-brands fa-codepen"></i></a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="copyright">
+                <p>Copyright &copy; 2024 - 2025. VK Portfolio. All rights reserved.</p>
+            </section>
         </footer>
     </body>
 </html>
