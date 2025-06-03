@@ -1,0 +1,78 @@
+/* 
+VIEWPORT WIDTHS (updated 18/05/2025):
+
+Monitors: 1024px - 1440px (laptops), 1440+ (desktops)
+Tablets: 600px - 1024px
+Modern Smartphones: 320px - 480px
+1st gen Smartphones: <320px
+*/
+
+/* --------------------------------------------- */
+/*                    MONITORS                   */
+/* --------------------------------------------- */
+
+@media screen and (min-width: 1024px) 
+{
+    /* Laptop & Desktops */
+    main section.flex-container {display: flex;}
+}
+
+/* --------------------------------------------- */
+/*                    TABLETS                    */
+/* --------------------------------------------- */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) 
+{
+    /* iPad Mini */
+    main section.flex-container {display: block;}
+    main section.flex-container div.title {padding-left: 7vw; padding-bottom: 0;}
+    main section.flex-container div.title h1.caption {font-size: 30px;}
+    main section.flex-container div.title h1.title {font-size: 50px;}
+}
+
+@media screen and (min-width: 820px) and (max-width: 1180px) 
+{
+    /* iPad Air, iPad Pro 11", Samsung Galaxy Fold 5 (unfolded) */
+    /* Galaxy Fold 5 inner display                              */
+    main section.flex-container {display: block;}
+    main section.flex-container div.title {padding-left: 7vw; padding-bottom: 0;}
+    main section.flex-container div.title h1.caption {font-size: 40px;}
+    main section.flex-container div.title h1.title {font-size: 60px;}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) 
+{
+    /* iPad Pro 12.9" */
+    main section.flex-container {display: block;}
+    main section.flex-container div.title {padding-left: 7vw; padding-bottom: 0;}
+    main section.flex-container div.title h1.caption {font-size: 40px;}
+    main section.flex-container div.title h1.title {font-size: 60px;}
+    main section.flex-container div.description p {font-size: 30px;}
+}
+
+/* --------------------------------------------- */
+/*                  SMARTPHONES                  */
+/* --------------------------------------------- */
+
+@media screen and (min-width: 375px) and (max-width: 667px) 
+{
+    /* iPhone SE (2nd & 3rd gen)                    */
+    /* iPhone XR, iPhone 12 Pro, iPhone 14 Pro Max  */
+    main section.flex-container {display: block;}
+    main section.flex-container div.title {padding-left: 7vw; padding-bottom: 0;}
+    main section.flex-container div.title h1.caption {font-size: 15px;}
+    main section.flex-container div.title h1.title {font-size: 35px;}
+    main section.flex-container div.description p {font-size: 15px;}
+}
+
+@media screen and (min-width: 360px) and (max-width: 740px) 
+{
+    /* Samsung Galaxy S8+                               */
+    /* Samsung Galaxy S20 Ultra, Galaxy A51, Galaxy A71 */
+    /* Galaxy A51, A71                                  */
+    main section.flex-container {display: block;}
+    main section.flex-container div.title {padding-left: 7vw; padding-bottom: 0;}
+    main section.flex-container div.title h1.caption {font-size: 15px;}
+    main section.flex-container div.title h1.title {font-size: 35px;}
+    main section.flex-container div.description p {font-size: 15px;}
+}

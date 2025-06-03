@@ -1,0 +1,104 @@
+main section
+{
+    margin-top: 5rem;
+    padding-top: -20rem;
+}
+/* Flex container section */
+main section .flex-container
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+main section .flex-container .description /* left content */
+{
+    width: 50%;
+    margin: 2rem; 
+}
+/* Div 1 (left content) */
+main section .flex-container .description #div-left
+{
+    border: 5px solid white;
+    padding: 2rem;
+    text-align: justify;
+}
+main section .flex-container .description #div-left h1
+{
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+    font-size: 60px;
+    font-family: "Cabin Sketch", sans-serif; 
+    font-weight: 400; 
+    font-style: normal;
+    letter-spacing: 2px;
+    color: #00ff73;
+    text-shadow: 0 10px 10px #00ffaa;
+}
+main section .flex-container .description #div-left #horizontal-line
+{
+    border-top: 2px solid white;
+    padding-bottom: 2rem;
+}
+main section .flex-container .description #div-left p
+{
+    font-family: "Cabin Sketch", sans-serif; 
+    font-weight: 400; 
+    font-style: normal;
+    line-height: 1.7;
+}
+main section .flex-container .description #div-left a button
+{
+    padding: 1rem;
+    margin-top: 1.5rem;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: #ff7300;
+    color: #00025a;
+    font-size: 25px;
+}
+main section .flex-container .description #div-left a:hover button,
+main section .flex-container .description #div-left a:focus button
+{
+    cursor: pointer;
+    background-color: #ffd900;
+    transition: background-color 0.3s, color 0.3s ease;
+}
+main section .flex-container .description #div-left a:active button {color: #ffffff;}
+main section .flex-container img /* right content (image) */
+{
+    border: 5px solid white;
+    width: 650px;
+    height: 550px;
+    margin: 2rem;
+}
+/* Div 2 (buttons) */
+main section .flex-container .description #div-right
+{
+    display: flex;
+    justify-content: center;
+}
+main section .flex-container .description #div-right a button
+{
+    margin-top: 2vw;
+    padding: 1vw;
+    border: 2px solid white;
+    background-color: #006154;
+    color: #ff0095;
+    font-size: 25px;
+}
+main section .flex-container .description #div-right a #projects 
+{
+    width: 300px;
+    margin-right: 2rem;
+}
+main section .flex-container .description #div-right a #enquire 
+{
+    width: 300px;
+}
+main section .flex-container .description #div-right a:hover button,
+main section .flex-container .description #div-right a:focus button
+{
+    cursor: pointer;
+    background-color: #007a7e;
+    transition: background-color 0.3s, color 0.3s ease;
+}
+main section .flex-container .description #div-right a:active button {color: #ffffff;}

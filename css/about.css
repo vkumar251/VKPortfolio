@@ -1,0 +1,51 @@
+main section.flex-container
+{
+    margin-top: 7rem;
+}
+main section.flex-container div.title /* left box */
+{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 10vw;
+}
+main section.flex-container div.title h1.caption
+{
+    color: #b9b9b9;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+main section.flex-container div.title h1.title
+{
+    color: #ffd900;
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+main section.flex-container div.description /* right box */
+{
+    text-align: justify;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-right: 10vw;
+    margin-left: 7vw;
+}
+main section.flex-container div.description p {padding-bottom: 2rem;}
+main section.flex-container div.description button
+{
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    padding: 1rem 4rem;
+    background-color: #9f98ff;
+    border: 2px solid #000000;
+    outline: 2px solid #535353;
+    text-transform: uppercase;
+}
+main section.flex-container div.description button:hover,
+main section.flex-container div.description button:focus
+{
+    background-color: #665bff;
+    transition: background-color 0.3s, color 0.3s ease;
+}
+main section.flex-container div.description button:active {color: #ffffff;}

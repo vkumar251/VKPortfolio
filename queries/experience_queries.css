@@ -1,0 +1,29 @@
+/* 
+VIEWPORT WIDTHS (updated 18/05/2025):
+
+Monitors: 1024px - 1440px (laptops), 1440+ (desktops)
+Tablets: 600px - 1024px
+Modern Smartphones: 320px - 480px
+1st gen Smartphones: <320px
+*/
+
+@media screen and (min-width: 1024px)
+{
+    /* Laptop & Desktops */
+    main section.f-container div.profile {width: 100vw;}
+}
+
+@media screen and (max-width: 1024px) 
+{
+    /* Tablets & Smartphones */
+    main section.f-container div.profile {position: static;  max-width: 100%;}
+    main section.f-container div.profile ul.contents {margin: 0 auto 20px auto;}
+    main section.f-container div.description {position: static; width: 100%;}
+    main section.f-container div.description div#statement {padding-bottom: 60px; padding-top: 60px;}
+    main section.f-container div.description div#experience {padding-bottom: 60px;}
+    main section.f-container div.description div#education {padding-bottom: 60px;}
+    main section.f-container div.profile h1.title,
+    main section.f-container div.profile h1.subtitle,
+    main section.f-container div.profile h1.caption,
+    main section.f-container div.profile h1.sub-h1 {text-align: center;}
+}

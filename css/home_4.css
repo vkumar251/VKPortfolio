@@ -1,0 +1,97 @@
+main section {}
+main section div 
+{
+    margin-top: 8em;
+    margin-bottom: 8em;
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+/* Banner */
+main section#banner
+{
+    font-family: "Cabin Sketch", Arial;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #1a0025;
+}
+main section#banner div {text-align: justify;}
+main section#banner div h1
+{
+    font-size: 7vw;
+    text-align: center;
+    color: #00ff00;
+    text-shadow: 10px 10px 7px #085f00;
+}
+main section#banner div hr 
+{
+    margin: 6vh auto; 
+    border-width: 2px; 
+    width: 70%; 
+    border-color: #757575; 
+    border-style: solid;
+    opacity: 1.0;
+}
+main section#banner div p {font-size: 1.5vw;}
+
+/* Gallery */
+main section#gallery-container {background-color: #3d3d3d;}
+main section#gallery-container h1
+{
+    font-size: 3vw;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+}
+main section#gallery-container h2
+{
+    text-align: center;
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+main section#gallery-container div#gallery
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 2vw;
+    padding-right: 2vw;
+
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+main section#gallery-container div#gallery figure
+{
+    position: relative;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+main section#gallery-container div#gallery figure img
+{
+    width: 100%;
+    height: 100%;
+    border: 3px groove #ffbb00;
+    box-shadow: 0 0 20px #ff8800;
+    position: relative;
+    box-sizing: border-box;
+    padding: 0;
+    z-index: 1;
+}
+main section#gallery-container div#gallery figure figcaption.caption1
+{
+    background-color: #818181;
+    opacity: 0.6;
+    width: 100%;
+    font-size: 1vw;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 6px;
+    z-index: 2;
+    margin-bottom: -3px;
+}

@@ -4,7 +4,7 @@ VIEWPORT WIDTHS (updated 18/05/2025):
 Monitors: 1024px - 1440px (laptops), 1440+ (desktops)
 Tablets: 600px - 1024px
 Modern Smartphones: 320px - 480px
-First-gen Smartphones: <320px
+1st gen Smartphones: <320px
 */
 
 /* --------------------------------------------- */
@@ -28,7 +28,7 @@ First-gen Smartphones: <320px
 @media screen and (min-width: 820px) and (max-width: 1180px) 
 {
     /* iPad Air, iPad Pro 11", Samsung Galaxy Fold 5 (unfolded) */
-    /* iPad Air, Galaxy Fold 5 inner display                    */
+    /* Galaxy Fold 5 inner display                              */
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1366px) 
@@ -47,7 +47,6 @@ First-gen Smartphones: <320px
 
 @media screen and (min-width: 390px) and (max-width: 932px) 
 {
-    /* iPhone XR, iPhone 12 Pro, iPhone 14 Pro Max  */
     /* iPhone XR, iPhone 12 Pro, iPhone 14 Pro Max  */
 }
 
