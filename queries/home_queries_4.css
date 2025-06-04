@@ -7,57 +7,52 @@ Modern Smartphones: 320px - 480px
 1st gen Smartphones: <320px
 */
 
-/* --------------------------------------------- */
-/*                    MONITORS                   */
-/* --------------------------------------------- */
-
-@media screen and (min-width: 1024px)
-{
-    /* Laptop & Desktops */
-}
-
-/* --------------------------------------------- */
-/*                    TABLETS                    */
-/* --------------------------------------------- */
-
+/* Tablets */
 @media screen and (min-width: 768px) and (max-width: 1024px) 
 {
-    /* iPad Mini */
-    main section#gallery-container div#gallery {grid-template-columns: auto auto auto;}
+    main section div
+    {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    main section#banner {margin-top: 6em;}
+    main section#banner div h1 {font-size: 10vw;}
+    main section#banner div hr {margin: 6vh auto;}
+    main section#banner div p {font-size: 2.5vw;}
+    main section#gallery-container h1 {font-size: 5vw;}
+    main section#gallery-container h2 {font-size: 2.5vw;}
+    main section#gallery-container div#gallery 
+    {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 250px;
+    }
+    main section#gallery-container div#gallery figure figcaption.caption1 {font-size: 2vw;}
 }
 
-@media screen and (min-width: 820px) and (max-width: 1180px) 
+/* Smartphones */
+@media screen and (max-width: 767px)
 {
-    /* iPad Air, iPad Pro 11", Samsung Galaxy Fold 5 (unfolded) */
-    /* Galaxy Fold 5 inner display                              */
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1366px) 
-{
-    /* iPad Pro 12.9" */
-}
-
-/* --------------------------------------------- */
-/*                  SMARTPHONES                  */
-/* --------------------------------------------- */
-
-@media screen and (min-width: 375px) and (max-width: 667px) 
-{
-    /* iPhone SE (2nd & 3rd gen) */
-}
-
-@media screen and (min-width: 390px) and (max-width: 932px) 
-{
-    /* iPhone XR, iPhone 12 Pro, iPhone 14 Pro Max  */
-}
-
-@media screen and (min-width: 360px) and (max-width: 740px) 
-{
-    /* Samsung Galaxy S8+ */
-}
-
-@media screen and (min-width: 412px) and (max-width: 915px) 
-{
-    /* Samsung Galaxy S20 Ultra, Galaxy A51, Galaxy A71 */
-    /* Galaxy A51, A71                                  */
+    main section div
+    {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    main section#banner {margin-top: 6em;}
+    main section#banner div h1 {font-size: 12vw;}
+    main section#banner div hr {margin: 6vh auto;}
+    main section#banner div p {font-size: 3.5vw;}
+    main section#gallery-container h1 {font-size: 7vw;}
+    main section#gallery-container h2 {font-size: 3.5vw;}
+    main section#gallery-container div#gallery 
+    {
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 250px;
+        gap: 40px;
+    }
+    main section#gallery-container div#gallery figure {margin-top: -30px;}
+    main section#gallery-container div#gallery figure figcaption.caption1 {font-size: 3vw;}
 }

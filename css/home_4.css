@@ -46,14 +46,15 @@ main section#gallery-container h1
 main section#gallery-container h2
 {
     text-align: center;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     font-weight: 500;
 }
 main section#gallery-container div#gallery
 {
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    
+    grid-template-columns: repeat(4, 1fr); /* set grid to have 4 columns */
+    grid-auto-rows: 250px; /* make grid rows all share same height */
+    gap: 60px; /* add padding between grid rows and columns */
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 2vw;
@@ -65,11 +66,8 @@ main section#gallery-container div#gallery
 main section#gallery-container div#gallery figure
 {
     position: relative;
-    
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 0;
+    height: 100%;
 }
 main section#gallery-container div#gallery figure img
 {
@@ -81,6 +79,7 @@ main section#gallery-container div#gallery figure img
     box-sizing: border-box;
     padding: 0;
     z-index: 1;
+    object-fit: cover; /* maintain image aspect ratios on grid containers */
 }
 main section#gallery-container div#gallery figure figcaption.caption1
 {
