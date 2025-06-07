@@ -32,8 +32,30 @@
             </nav>
         </header>
         <main>
-            <h1>Work In Progress</h1>
-            <section>
+            <section id="contact">
+                <div id="contact-overview">
+                    <h1>Contact</h1>
+                    <hr>
+                    <p>Thank you for reaching out. Please fill in the form below and I will get back as soon as I can.</p>
+                </div>
+                <div id="contact-entries">
+                    <form action="php/form-handlers/contact-handler.php", id="contact-form">
+                        <div class="contact-form-div">
+                            <label for="fullname">Full Name *</label>
+                            <input type="text", id="fullname", name="fullname" required>
+                        </div>
+                        <div class="contact-form-div">
+                            <label for="email">Email *</label>
+                            <input type="email", id="email", name="email", required>
+                        </div>
+                        <div class="contact-form-div">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel", id="phone", name="phone", value="+44">
+                        </div>
+                    </form>
+                </div>
+            </section>
+<!--             <section>
                 <form>
                     <label for="fullname">Full Name:</label><br>
                     <input type="text", id="fullname", name="fullname"><br>
@@ -43,7 +65,7 @@
                     <textarea id="message", name="message" rows="10" cols="60"></textarea><br>
                     <input type="submit", value="Submit">
                 </form>
-            </section>
+            </section> -->
         </main>
         <footer>
             <section class="footer-container">

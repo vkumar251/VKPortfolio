@@ -1,0 +1,35 @@
+main section#contact
+{
+    margin: 15vh auto;
+    width: 80%;
+    background-color: #1d1d1d;
+    border: 5px solid white;
+    box-shadow: 0px 0px 20px red;
+}
+/* Overview */
+main section#contact div#contact-overview {text-align: center;}
+main section#contact div#contact-overview h1 {font-size: 50px;}
+main section#contact div#contact-overview hr {border-top: 5px solid white; width: 50%; margin: 2vh auto;}
+main section#contact div#contact-overview p {font-size: 25px;}
+
+/* Form entries */
+main section#contact div#contact-entries 
+{
+    border: 3px solid white;
+    background-color: black;
+    padding: 2rem;
+}
+main section#contact div#contact-entries form#contact-form
+{
+}
+main section#contact div#contact-entries form#contact-form div.contact-form-div
+{
+}
+main section#contact div#contact-entries form#contact-form label
+{
+}
+main section#contact div#contact-entries form#contact-form input
+{
+    width: 80%;
+    padding: 10px;
+}
