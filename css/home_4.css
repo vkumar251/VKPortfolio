@@ -1,4 +1,9 @@
-main section {}
+main#main-flexbox
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 main section div 
 {
     margin-top: 8em;
@@ -35,7 +40,7 @@ main section#banner div hr
 main section#banner div p {font-size: 1.5vw;}
 
 /* Gallery */
-main section#gallery-container {background-color: #3d3d3d;}
+main section#gallery-container {background-color: #3d3d3d; width: 100%;}
 main section#gallery-container h1
 {
     font-size: 3vw;
@@ -53,7 +58,6 @@ main section#gallery-container div#gallery
 {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* set grid to have 4 columns */
-    grid-auto-rows: 250px; /* make grid rows all share same height */
     gap: 60px; /* add padding between grid rows and columns */
     padding-top: 0;
     padding-bottom: 0;
@@ -68,6 +72,7 @@ main section#gallery-container div#gallery figure
     position: relative;
     margin: 0;
     height: 100%;
+    aspect-ratio: 4/3; /* maintain 4:3 width and height ratio on grid items */
 }
 main section#gallery-container div#gallery figure img
 {

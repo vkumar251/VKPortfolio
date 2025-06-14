@@ -1,0 +1,75 @@
+/* 
+VIEWPORT WIDTHS (updated 18/05/2025):
+
+Monitors: 1024px - 1440px (laptops), 1440+ (desktops)
+Tablets: 600px - 1024px
+Modern Smartphones: 320px - 480px
+1st gen Smartphones: <320px
+*/
+
+/* --------------------------------------------- */
+/*                    TABLETS                    */
+/* --------------------------------------------- */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) 
+{
+    /* iPad Mini */
+    main section#contact {width: 80%;}
+    main section#contact div#contact-entries form#contact-form div.contact-form-flex {display: block;}
+    main section#contact div#contact-entries form#contact-form div.contact-form-flex div.contact-form-div {padding: 2vh 0; width: 100%;}
+    main section#contact div#contact-entries form#contact-form div.contact-form-block div.contact-form-div {padding: 2vh 0;}
+    main section#contact div#contact-entries form#contact-form div.contact-form-block div.contact-form-div input.button {width: 40%;}
+}
+
+@media screen and (min-width: 820px) and (max-width: 1180px) 
+{
+    /* iPad Air, iPad Pro 11", Samsung Galaxy Fold 5 (unfolded) */
+    /* Galaxy Fold 5 inner display                              */
+    main section#contact {width: 80%;}
+    main section#contact div#contact-entries form#contact-form div.contact-form-flex {display: block;}
+    main section#contact div#contact-entries form#contact-form div.contact-form-flex div.contact-form-div {padding: 2vh 0; width: 100%;}
+    main section#contact div#contact-entries form#contact-form div.contact-form-block div.contact-form-div {padding: 2vh 0;}
+    main section#contact div#contact-entries form#contact-form div.contact-form-block div.contact-form-div input.button {width: 40%;}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) 
+{
+    /* iPad Pro 12.9" */
+    main section#contact {width: 80%;}
+    main section#contact div#contact-overview p {font-size: 25px;}
+    main section#contact div#contact-entries form#contact-form {font-size: 20px;}
+    main section#contact div#contact-entries form#contact-form div.contact-form-flex {display: block;}
+    main section#contact div#contact-entries form#contact-form div.contact-form-flex div.contact-form-div {padding: 2vh 0; width: 100%;}
+    main section#contact div#contact-entries form#contact-form div.contact-form-block div.contact-form-div {padding: 2vh 0;}
+    main section#contact div#contact-entries form#contact-form div.contact-form-block div.contact-form-div input.button {width: 40%;}
+}
+
+/* --------------------------------------------- */
+/*                  SMARTPHONES                  */
+/* --------------------------------------------- */
+
+@media screen and (min-width: 375px) and (max-width: 667px) 
+{
+    /* iPhones */
+    main section#contact {width: 80%;}
+    main section#contact div#contact-overview p {font-size: 20px;}
+    main section#contact div#contact-entries {padding: 0;}
+    main section#contact div#contact-entries form#contact-form {font-size: 15px;}
+    main section#contact div#contact-entries form#contact-form div.contact-form-flex {display: block;}
+    main section#contact div#contact-entries form#contact-form div.contact-form-flex div.contact-form-div {padding: 2vh 0; width: 100%;}
+    main section#contact div#contact-entries form#contact-form div.contact-form-block div.contact-form-div {padding: 2vh 0;}
+    main section#contact div#contact-entries form#contact-form div.contact-form-block div.contact-form-div input.button {width: 80%;}
+}
+
+@media screen and (min-width: 360px) and (max-width: 740px) 
+{
+    /* Samsung phones */
+    main section#contact {width: 80%;}
+    main section#contact div#contact-overview p {font-size: 20px;}
+    main section#contact div#contact-entries {padding: 0;}
+    main section#contact div#contact-entries form#contact-form {font-size: 15px;}
+    main section#contact div#contact-entries form#contact-form div.contact-form-flex {display: block;}
+    main section#contact div#contact-entries form#contact-form div.contact-form-flex div.contact-form-div {padding: 2vh 0; width: 100%;}
+    main section#contact div#contact-entries form#contact-form div.contact-form-block div.contact-form-div {padding: 2vh 0;}
+    main section#contact div#contact-entries form#contact-form div.contact-form-block div.contact-form-div input.button {width: 80%;}
+}
